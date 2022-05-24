@@ -1,6 +1,6 @@
 # pyarrow-8.0.0-wheel-arm7l
 how to build pyarrow from source on raspberry pi arm7l
-
+```
 git clone https://github.com/apache/arrow.git
 pushd arrow
 export RELEASE_TAG=apache-arrow-8.0.0
@@ -51,3 +51,4 @@ pip3 install wheel  # if not installed
 python3 setup.py build_ext --build-type=release \
        --bundle-arrow-cpp bdist_wheel
 popd
+```
